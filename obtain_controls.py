@@ -5,11 +5,6 @@ Created on Sat Aug  2 15:06:58 2025
 @author: arnol
 """
 
-import os
-import csv
-import pandas as pd
-import numpy as np
-import time
 
 
 #define an abstract vowel representation. the consonants in controls do not depend 
@@ -179,6 +174,7 @@ word_control_dict = dict(zip(all_cvc, controls))
 
 
     
+
 
 
 
