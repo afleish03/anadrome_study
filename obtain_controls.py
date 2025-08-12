@@ -76,7 +76,7 @@ def compute_phonemic_difference(p1: str, p2: str) -> str:
     Returns
     -------
     str
-        A numerical representation of phonetic similarity between two phonemes. Differences in different features are weighed differently: place, voicing, manner contribute 1,2, and 4 to the difference, respectively. 
+        A numerical representation of phonetic similarity between two phonemes. Differences in different features are weighed differently: place, voicing, manner contribute 1, 2, and 4 to the difference, respectively. 
         
     Examples:
     -------
@@ -174,6 +174,7 @@ word_control_dict = dict(zip(all_cvc, controls))
 
 
     
+
 
 
 
